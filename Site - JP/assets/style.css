@@ -221,7 +221,7 @@ nav {
 
 .item-plano {
     flex: 1;
-    border: 4px solid #122a57;
+    border: 3px solid #122a57;
     margin-right: 20px;
     padding: 10px;
     max-width: 240px;
@@ -237,7 +237,7 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:sans-serif;
 }
 
 .item-plano h3::after {
@@ -273,8 +273,63 @@ nav {
     background-color: #122a57;
     margin-right: 5px;
 }
-.lindo{
-    width: 50px;
+
+.container {
+    padding: 0 16px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 20vh;
+}
+  
+.title {
+    font-size: 36px;
+    font-weight: normal;
+    font-family: "Source Code Pro", monospace;
+    color: #aeaeae;
+}
+  
+.profile {
+    max-width: 452px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+  
+.box {
+    background: #eee;
+    padding: 4rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 8rem;
+}
+  
+.profile-pic {
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+}
+  
+.profile span {
+    font-size: 24px;
+    font-family: "Source Code Pro", monospace;
+    color: #aeaeae;
+}
+  
+.profile p {
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: "Source Code Pro", monospace;
+    color: #aeaeae;
+}
+  
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+  
+.redes-sociais li {
+    margin-right: 1rem;
 }
 
 footer {
@@ -282,6 +337,7 @@ footer {
     height: 70px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 footer .footer {
@@ -335,6 +391,15 @@ footer .footer {
         margin: auto;
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .box {
+        padding: 2rem;
+        margin-top: 4rem;
+        border-radius: 30px;
+    }
+    .box:first-child {
+        padding: 3rem;
     }
 
 }
