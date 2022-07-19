@@ -16,14 +16,20 @@
 
 <body>
     <header>
-        <img src="./assets/images/icons8-mac-os-200.png" alt="logo">
-        <div class="flex-container menu"></div>
-            <ul class="list-itens">
-                <li><a href="#quem-somos">Quem Somos</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#Orçamento">Orçamento</a></li>
+        <nav>
+            <a class="logo" href="/">Blog</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="index.html" target="_blank" onclick="location.href='index.html'">Início</a></li>
+              <li><a href="#quem-somos">Quem Somos</a></li>
+              <li><a href="cards.html" target="_blank" onclick="location.href = 'cards.html'">Trabalhos</a></li>
+              <li><a href="Forms.html" target="_blank" onclick="location.href='Forms.html'">Contato</a></li>
             </ul>
-        </div>
+          </nav>
     </header>
 
     <div class="flex-container apresentacao">
@@ -40,7 +46,7 @@
 
     <div class="flex-container" id="quem-somos">
         <div>
-            <h2>Quem somos</h2>
+            <h2>Quem Somos</h2>
             <p>Sempre gostei de usar minha criatividade para fazer meus projetos. </p>
             <p>Pensando nisso, na pandemia comecei a aprender sobre design gráfico, fiquei fascinado, e estou decidido que quero ajudar empresas e negócios à alavacarem sua presença digital, a partir de uma bela identidade visual.</p>
         </div>
@@ -54,19 +60,19 @@
 
         <div class="list-servicos">
             <div class="item-serv">
-                <div><img src="./images/icon-2.png" alt="hospedagens"></div>
+                <div><img src="./assets/images/design.png" alt="ID Visual"></div>
                 <p>Identidade Visual</p>
                 <a href="#">Comprar Agora</a>
             </div>
 
             <div class="item-serv">
-                <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
+                <div><img src="./assets/images/banners.png" alt="Banners"></div>
                 <p>Banners</p>
                 <a href="#">Comprar Agora</a>
             </div>
 
             <div class="item-serv">
-                <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
+                <div><img src="./assets/images/marca.png" alt="Marca"></div>
                 <p>Criação de Marca</p>
                 <a href="#">Comprar Agora</a>
             </div>
@@ -98,7 +104,7 @@
                 <ul>
                     <li>Banners</li>
                     <li>Adesivos</li>
-                    <li>Formatação de Arquivo em pdf</li>
+                    <li>Flyers</li>
                     <li>Arte para eventos</li>
                 </ul>
                 <a href="#" class="btn">Saiba Mais!</a>
@@ -127,6 +133,7 @@
             <p>Desenvolvido por: João Pedro</p>
         </div>
     </footer>
+    <script src="./assets/navbar.js"></script>
 </body>
 
 </html>
